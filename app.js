@@ -4,7 +4,7 @@ const date = require(__dirname + '/date.js');
 const mongoose = require('mongoose');
 const _ = require('lodash');
 //Connect to database server.
-mongoose.connect('mongodb+srv://new-admin:*******@cluster0.ad3uw.mongodb.net/todolistDB?retryWrites=true&w=majority', {
+mongoose.connect('*******+srv://*********:*******@cluster0.ad3uw.*******.net/**********?retryWrites=****&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
