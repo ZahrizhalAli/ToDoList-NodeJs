@@ -4,7 +4,7 @@ const date = require(__dirname + '/date.js');
 const mongoose = require('mongoose');
 const _ = require('lodash');
 //Connect to database server.
-mongoose.connect('mongodb+srv://new-admin:test123@cluster0.ad3uw.mongodb.net/todolistDB?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://new-admin:*******@cluster0.ad3uw.mongodb.net/todolistDB?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
@@ -136,6 +136,6 @@ app.post('/', function(req, res) {
 });
 
 
-app.listen(process.env.PORT || 3000, function() {
+app.listen(3000, function() {
   console.log('To do list running ...');
 });
